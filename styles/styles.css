@@ -90,6 +90,11 @@ header {
   background: url(../assets/images/mountains.jpg) 0% 34% no-repeat;
   background-size: cover;
   height: 75vh;
+  padding: 3rem;
+}
+
+section {
+  padding: 3rem 0 2rem 0;
 }
 
 .container {
@@ -98,7 +103,7 @@ header {
   flex-direction: column;
   margin: 0 auto;
   max-width: 1000px;
-  padding: 2rem 4rem 3rem 4rem;
+  padding: 0 2rem;
 }
 
 #input-domain-available {
@@ -171,7 +176,8 @@ header p {
 }
 
 .card .avatar {
-  width: 3rem;
+  width: 44px;
+  border-radius: 50%;
   vertical-align: middle;
   margin-right: 1.5rem;
 }
@@ -181,6 +187,10 @@ header p {
   position: absolute;
   top: 3.5rem;
   left: 4.5rem;
+}
+
+.card figcaption {
+  display: inline;
 }
 
 /*///////////// 3.3 Support /////////////*/
@@ -193,11 +203,12 @@ header p {
 }
 
 /*///////////// 3.4 Faq /////////////*/
-.faq .container {
+.faq {
   align-items: flex-start;
+  width: 100%;
 }
 
-.faq .container h2 {
+.faq h2 {
   align-self: center;
 }
 
@@ -208,10 +219,10 @@ details {
 
 details > p {
   border-radius: 1rem;
-  background-color: silver;
+  background-color: var(--grey-clr);
+  color: #fff;
   padding: 1.5rem;
   margin-top: 0.5rem;
-  transition: all 250ms ease-in;
   line-height: 1.5;
 }
 

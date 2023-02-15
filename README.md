@@ -40,33 +40,33 @@ Zorg er eerst voor dat de volgende basis-concepten in orde zijn:
 
 Zoals je kunt zien staat er een mooie afbeelding in de header. Maar we gaan je alvast verklappen dat deze niet is ingevoegd als `<img>`-element! Wanneer je een afbeelding wil gebruiken in een header (of als achtergrond van de pagina) is het gebruikelijk om deze als _achtergrond-afbeelding_ in te voegen met CSS. Dit zorgt ervoor dat de afbeelding altijd de gehele header bedekt.
 
-- [ ] Gebruik de afbeelding `mountains.jpg` als achtergrond-afbeelding, doormiddel van de `background-image`-property. Bekijk [hier](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) een werkend voorbeeld van deze property. Vervolgens kun je de [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size) en de [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)-property gebruiken om de afbeelding netjes de header te laten bedekken.
+- [x] Gebruik de afbeelding `mountains.jpg` als achtergrond-afbeelding, doormiddel van de `background-image`-property. Bekijk [hier](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) een werkend voorbeeld van deze property. Vervolgens kun je de [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size) en de [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)-property gebruiken om de afbeelding netjes de header te laten bedekken.
 
 ### 1.3 Main gedeelte van de pagina
-- [ ] Voor je aan de slag gaat met alle content in het `<main>`-gedeelte van de webpagina, is het belangrijk om het main element eerst even goed in te stellen, zodat alle content op dezelfde afstand van de rand komt te staan. Geef het `<main>`-element een maximale breedte van 1000px en plaats het in het midden met de juiste `margin`;
-- [ ] Hoeveel sections kun jij herkennen in het voorbeeld? Zet deze `<section>`-elementen klaar in het `<main>`-element en zet de bijbehorende titels erbij. Voorzie de `<section>`-elementen van een heldere class-naam, zodat je ze goed uit elkaar kunt houden in de styling. Maak de titels zo op dat ze eruitzien als op het voorbeeld;
-- [ ] Voor nu mag je de eerste section even laten voor wat het is. Voeg in de section daarna ("Wij staan voor je klaar") de afbeelding `callcenter.jpg` in (dit keer wel als `<img>`-element!) en geef deze afgeronde hoeken. _Tip:_ afbeelding te groot? Zet 'm op `100%`, dan wordt hij niet groter dan het element waar hij in staat;
-- [ ] De link in de tekst moet wijzen naar de pagina `team.html`. Geef links een grijze kleur met een lijntje eronder. Dit lijntje moet verdwijnen wanneer de gebruiker er met de muis overheen hovert. _Tip:_ Zorg ervoor dat je de styling van jouw linkjes op globale wijze beschrijft.
-- [ ] Voorzie de button van styling zodat deze er zo uitziet als het voorbeeld. Check of alles er nogsteeds goed uitziet als je de buttontekst ineens heel lang maakt.
+- [x] Voor je aan de slag gaat met alle content in het `<main>`-gedeelte van de webpagina, is het belangrijk om het main element eerst even goed in te stellen, zodat alle content op dezelfde afstand van de rand komt te staan. Geef het `<main>`-element een maximale breedte van 1000px en plaats het in het midden met de juiste `margin`;
+- [x] Hoeveel sections kun jij herkennen in het voorbeeld? Zet deze `<section>`-elementen klaar in het `<main>`-element en zet de bijbehorende titels erbij. Voorzie de `<section>`-elementen van een heldere class-naam, zodat je ze goed uit elkaar kunt houden in de styling. Maak de titels zo op dat ze eruitzien als op het voorbeeld;
+- [x] Voor nu mag je de eerste section even laten voor wat het is. Voeg in de section daarna ("Wij staan voor je klaar") de afbeelding `callcenter.jpg` in (dit keer wel als `<img>`-element!) en geef deze afgeronde hoeken. _Tip:_ afbeelding te groot? Zet 'm op `100%`, dan wordt hij niet groter dan het element waar hij in staat;
+- [x] De link in de tekst moet wijzen naar de pagina `team.html`. Geef links een grijze kleur met een lijntje eronder. Dit lijntje moet verdwijnen wanneer de gebruiker er met de muis overheen hovert. _Tip:_ Zorg ervoor dat je de styling van jouw linkjes op globale wijze beschrijft.
+- [x] Voorzie de button van styling zodat deze er zo uitziet als het voorbeeld. Check of alles er nogsteeds goed uitziet als je de buttontekst ineens heel lang maakt.
 
 ### 1.4 Veelgestelde vragen
 ![Uitklap vragen](./assets/examples/uitklap-vragen.gif)
 
-- [ ] De veelgestelde vragen kunnen worden uitgeklapt! Hier gebruiken we het speciale `<details>`-element voor, wat het in- en uitklappen voor ons regelt. Bekijk [hier](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) hoe je deze kunt gebruiken;
-- [ ] Gebruik de juiste styling om de vragen er net zo uit te laten zien als in het voorbeeld;
-- [ ] Zorg ervoor dat de muis veranderd in een `pointer`, wanneer de gebruiker er overeen hovert.
+- [x] De veelgestelde vragen kunnen worden uitgeklapt! Hier gebruiken we het speciale `<details>`-element voor, wat het in- en uitklappen voor ons regelt. Bekijk [hier](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) hoe je deze kunt gebruiken;
+- [x] Gebruik de juiste styling om de vragen er net zo uit te laten zien als in het voorbeeld;
+- [x] Zorg ervoor dat de muis veranderd in een `pointer`, wanneer de gebruiker er overeen hovert.
 
 ### 1.5 Testimonials
 Oké, terug naar onze eerste section ("Wat klanten zeggen over ons");
-- [ ] Laten we beginnen met de twee witte vlakken. Welke elementen lijken jou daarvoor geschikt? Zorg ervoor dat beide elementen een schaduw krijgen en over de gehele breedte spannen. Oh, en zorg ervoor dat ze niet tegen elkaar aangedrukt staan!
-- [ ] Plaats de tekst in de witte vlakken en zorg dat er voldoende ruimte tussen de tekst en het eind van het witte vlak ontstaat;
-- [ ] De afbeelding en naam van de auteur moeten samen in een groepje komen te staan. Welk element lijkt jou daarvoor geschikt?
-- [ ] Maak de afbeeldingen 44 pixels bij 44 pixels groot. Maak er vervolgens cirkels van, door de juiste `border-radius` te gebruiken. Om de afbeelding en de naam nu vervolgens naast elkaar te krijgen in plaats van onder elkaar, zul je iets moeten doen met de [display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)-property van de naam;
-- [ ] _Tip:_ wil je ze netjes uitlijnen met de tekst? Spiek dan eens bij de [vertical-align](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align)-property!
-- [ ] Ten slotte is het tijd om het `quote`-teken in te voegen. Deze afbeelding kun je vinden in de map `assets`. Om het element op de juiste plek te krijgen, heb je de `position`-property nodig. _Positioneer deze afbeelding tenopzichte van het witte vlak._ Het helpt om de tekst wat extra padding te geven zodat deze ruimte maakt voor het quote-teken.
+- [x] Laten we beginnen met de twee witte vlakken. Welke elementen lijken jou daarvoor geschikt? Zorg ervoor dat beide elementen een schaduw krijgen en over de gehele breedte spannen. Oh, en zorg ervoor dat ze niet tegen elkaar aangedrukt staan!
+- [x] Plaats de tekst in de witte vlakken en zorg dat er voldoende ruimte tussen de tekst en het eind van het witte vlak ontstaat;
+- [x] De afbeelding en naam van de auteur moeten samen in een groepje komen te staan. Welk element lijkt jou daarvoor geschikt?
+- [x] Maak de afbeeldingen 44 pixels bij 44 pixels groot. Maak er vervolgens cirkels van, door de juiste `border-radius` te gebruiken. Om de afbeelding en de naam nu vervolgens naast elkaar te krijgen in plaats van onder elkaar, zul je iets moeten doen met de [display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)-property van de naam;
+- [x] _Tip:_ wil je ze netjes uitlijnen met de tekst? Spiek dan eens bij de [vertical-align](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align)-property!
+- [x] Ten slotte is het tijd om het `quote`-teken in te voegen. Deze afbeelding kun je vinden in de map `assets`. Om het element op de juiste plek te krijgen, heb je de `position`-property nodig. _Positioneer deze afbeelding tenopzichte van het witte vlak._ Het helpt om de tekst wat extra padding te geven zodat deze ruimte maakt voor het quote-teken.
 
 ### 1.6 Footer
-... Deze laten we aan jou over! ;)
+- [x] ... Deze laten we aan jou over! ;)
 
 ## Dummytekst
 > ## Domein.shop
