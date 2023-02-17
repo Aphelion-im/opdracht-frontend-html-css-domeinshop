@@ -173,6 +173,7 @@ header p {
 .card p {
   margin-bottom: 2rem;
   line-height: 1.5;
+  height: auto;
 }
 
 .card .avatar {
